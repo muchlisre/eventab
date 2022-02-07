@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/antarbangsa/eventab/
+    - /bin/cp -R * $DEPLOYPATH
